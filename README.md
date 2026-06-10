@@ -1,4 +1,4 @@
-# Matemática Computacional — Eng. Elétrica
+# Matemática Computacional — Engenharia Elétrica
 
 * **Carga horária:** 20ha (5 semanas, 2 encontros/semana de 2ha cada)
 * **Linguagem:** C ANSI (C89/C90)
