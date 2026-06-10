@@ -1,9 +1,9 @@
 # Matemática Computacional — Eng. Elétrica
 
-**Carga horária:** 20ha (5 semanas, 2 encontros/semana de 2ha cada)
-**Linguagem:** C ANSI (C89/C90)
-**Compilador:** GCC 12.1.0 (Ubuntu 12.1.0-2ubuntu1~22.04)
-**Pré-requisito:** Algoritmos e programação (geralmente C)
+* **Carga horária:** 20ha (5 semanas, 2 encontros/semana de 2ha cada)
+* **Linguagem:** C ANSI (C89/C90)
+* **Compilador:** GCC 12.1.0 (Ubuntu 12.1.0-2ubuntu1~22.04)
+* **Pré-requisito:** Algoritmos e programação (geralmente C)
 
 ## Conteúdo Programático
 
