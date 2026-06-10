@@ -1,0 +1,4 @@
+# Compiled binaries (all non-source files in codigos/)
+codigos/*
+!codigos/*.c
+!codigos/Makefile
