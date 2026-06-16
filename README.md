@@ -12,12 +12,11 @@
 | 1 | 1–2 | Introdução aos Erros (conversão decimal↔binário, ponto flutuante) + Teorema de Taylor |
 | 2 | 3–4 | Zeros de Funções (bisseção, Newton–Raphson, secante) |
 | 3 | 5–6 | Interpolação (Lagrange, Newton, spline linear) + Integração Numérica (trapézios, Simpson) |
-| 4 | 7–8 | EDOs (Euler, Euler modificado, Runge–Kutta 4ª ordem) + Avaliação final |
+| 4 | 7–8 | EDOs (Euler, Euler modificado, Runge–Kutta 4ª ordem) + Avaliação
 
 ## Avaliação
 
-- Trabalhos práticos de implementação em C ANSI (um por semana)
-- Prova final na última semana
+- Trabalhos práticos de implementação em C ANSI sobre EDO
 
 ---
 ## Semana 1 — Introdução aos Erros e Teorema de Taylor
