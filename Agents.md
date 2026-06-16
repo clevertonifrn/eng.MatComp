@@ -11,9 +11,9 @@ Cada semana tenho 2 encontros de 2ha cada. Totalizando 5 semanas de aulas.
 2. Teorema de Taylor
 3. Zeros de Funções
    1. Método da bisseção; Método da falsa posição; Método iterativo linear; Método de Newton–Raphson; Método da secante; Método especial para raízes de equações polinomiais.
-4. Resolução de Sistemas Lineares
-   1. Métodos diretos: eliminação de Gauss; fatoração LU.
-   2. Métodos iterativos: método de Gauss–Jacobi; método de Gauss–Seidel.
+4. Resolução de Sistemas Lineares (não trabalhado)
+    1. Métodos diretos: eliminação de Gauss; fatoração LU.
+    2. Métodos iterativos: método de Gauss–Jacobi; método de Gauss–Seidel.
 5. Resolução de Sistemas Não Lineares
    1. Método de Newton.
 6. Interpolação

@@ -11,9 +11,8 @@
 |--------|-------|--------|
 | 1 | 1–2 | Introdução aos Erros (conversão decimal↔binário, ponto flutuante) + Teorema de Taylor |
 | 2 | 3–4 | Zeros de Funções (bisseção, Newton–Raphson, secante) |
-| 3 | 5–6 | Sistemas Lineares (eliminação de Gauss, Jacobi, Seidel) |
-| 4 | 7–8 | Interpolação (Lagrange, Newton, spline linear) + Integração Numérica (trapézios, Simpson) |
-| 5 | 9–10 | EDOs (Euler, Euler modificado, Runge–Kutta 4ª ordem) + Avaliação final |
+| 3 | 5–6 | Interpolação (Lagrange, Newton, spline linear) + Integração Numérica (trapézios, Simpson) |
+| 4 | 7–8 | EDOs (Euler, Euler modificado, Runge–Kutta 4ª ordem) + Avaliação final |
 
 ## Avaliação
 
@@ -51,24 +50,9 @@
 - FRANCO, N. B. *Cálculo Numérico*. 2. ed. Pearson, 2007. Cap. 3.
 
 ---
-## Semana 3 — Sistemas Lineares
+## Semana 3 — Interpolação e Integração Numérica
 
-**Códigos:** `04_gauss_eliminacao.c`, `05_gauss_jacobi.c`
-
-**Resumo:** Solução de sistemas lineares Ax = b. Métodos diretos: eliminação de Gauss com pivoteamento parcial para evitar instabilidade numérica, e fatoração LU. Métodos iterativos: Gauss-Jacobi e Gauss-Seidel, que geram uma sequência de aproximações até convergir. Critério de convergência (Sassenfeld, diagonais estritamente dominantes).
-
-**Exercícios:**
-1. Implemente a fatoração LU (sem pivoteamento) para resolver um sistema 3×3 e compare o resultado com a eliminação de Gauss do código da aula.
-2. Implemente o método de Gauss-Seidel e compare a velocidade de convergência com Gauss-Jacobi para o sistema com diagonal dominante do código da aula.
-
-**Referências:**
-- RUGGIERO, M. A. G.; LOPES, V. L. R. *Cálculo Numérico: Aspectos Teóricos e Computacionais*. 2. ed. Pearson, 1997. Cap. 3.
-- FRANCO, N. B. *Cálculo Numérico*. 2. ed. Pearson, 2007. Cap. 4.
-
----
-## Semana 4 — Interpolação e Integração Numérica
-
-**Códigos:** `06_interpolacao_lagrange.c`, `07_simpson.c`
+**Códigos:** `04_interpolacao_lagrange.c`, `05_simpson.c`
 
 **Resumo:** Interpolação polinomial: formas de Lagrange e de Newton (diferenças divididas), Fenômeno de Runge e alternância com splines lineares. Integração numérica: fórmulas de Newton-Cotes — regra dos trapézios (1ª ordem) e regra de Simpson (2ª ordem). Estimativa de erro de truncamento em cada método.
 
@@ -81,9 +65,9 @@
 - FRANCO, N. B. *Cálculo Numérico*. 2. ed. Pearson, 2007. Cap. 5 (interpolação) e Cap. 6 (integração).
 
 ---
-## Semana 5 — EDOs e Avaliação Final
+## Semana 4 — EDOs e Avaliação Final
 
-**Códigos:** `08_euler.c`, `09_runge_kutta.c`
+**Códigos:** `06_euler.c`, `07_runge_kutta.c`
 
 **Resumo:** Solução numérica de problemas de valor inicial (PVI) para equações diferenciais ordinárias de 1ª ordem. Método de Euler (1ª ordem, erro O(h)), Euler modificado (método de Heun), Runge-Kutta de 4ª ordem (erro O(h⁴)). Métodos de passo múltiplo: previsão-correção. Comparação entre métodos e análise de erro.
 
@@ -119,12 +103,10 @@ Compilar cada exemplo **individualmente**:
 | `01_erros_conversao.c` | `gcc -std=c89 -Wall -pedantic -o 01_erros_conversao codigos/01_erros_conversao.c -lm` |
 | `02_bissecao.c` | `gcc -std=c89 -Wall -pedantic -o 02_bissecao codigos/02_bissecao.c -lm` |
 | `03_newton_raphson.c` | `gcc -std=c89 -Wall -pedantic -o 03_newton_raphson codigos/03_newton_raphson.c -lm` |
-| `04_gauss_eliminacao.c` | `gcc -std=c89 -Wall -pedantic -o 04_gauss_eliminacao codigos/04_gauss_eliminacao.c -lm` |
-| `05_gauss_jacobi.c` | `gcc -std=c89 -Wall -pedantic -o 05_gauss_jacobi codigos/05_gauss_jacobi.c -lm` |
-| `06_interpolacao_lagrange.c` | `gcc -std=c89 -Wall -pedantic -o 06_interpolacao_lagrange codigos/06_interpolacao_lagrange.c -lm` |
-| `07_simpson.c` | `gcc -std=c89 -Wall -pedantic -o 07_simpson codigos/07_simpson.c -lm` |
-| `08_euler.c` | `gcc -std=c89 -Wall -pedantic -o 08_euler codigos/08_euler.c -lm` |
-| `09_runge_kutta.c` | `gcc -std=c89 -Wall -pedantic -o 09_runge_kutta codigos/09_runge_kutta.c -lm` |
+| `04_interpolacao_lagrange.c` | `gcc -std=c89 -Wall -pedantic -o 04_interpolacao_lagrange codigos/04_interpolacao_lagrange.c -lm` |
+| `05_simpson.c` | `gcc -std=c89 -Wall -pedantic -o 05_simpson codigos/05_simpson.c -lm` |
+| `06_euler.c` | `gcc -std=c89 -Wall -pedantic -o 06_euler codigos/06_euler.c -lm` |
+| `07_runge_kutta.c` | `gcc -std=c89 -Wall -pedantic -o 07_runge_kutta codigos/07_runge_kutta.c -lm` |
 
 Onde:
 - `-std=c89` força o padrão ANSI C (C89/C90)
