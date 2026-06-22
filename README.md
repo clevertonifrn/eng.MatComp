@@ -1,7 +1,7 @@
 # Matemática Computacional — Engenharia Elétrica
 
 * **Carga horária:** 20ha (5 semanas, 2 encontros/semana de 2ha cada)
-* **Linguagem:** C ANSI (C89/C90)
+* **Linguagem:** C99
 * **Compilador:** GCC 12.1.0 (Ubuntu 12.1.0-2ubuntu1~22.04)
 * **Pré-requisito:** Algoritmos e programação (geralmente C)
 
@@ -16,7 +16,7 @@
 
 ## Avaliação
 
-- Trabalhos práticos de implementação em C ANSI sobre EDO
+- Trabalhos práticos de implementação em C sobre EDO
 
 ---
 ## Semana 1 — Introdução aos Erros e Teorema de Taylor
@@ -99,16 +99,16 @@ Compilar cada exemplo **individualmente**:
 
 | Arquivo | Comando |
 |---------|---------|
-| `01_erros_conversao.c` | `gcc -std=c89 -Wall -pedantic -o 01_erros_conversao codigos/01_erros_conversao.c -lm` |
-| `02_bissecao.c` | `gcc -std=c89 -Wall -pedantic -o 02_bissecao codigos/02_bissecao.c -lm` |
-| `03_newton_raphson.c` | `gcc -std=c89 -Wall -pedantic -o 03_newton_raphson codigos/03_newton_raphson.c -lm` |
-| `04_interpolacao_lagrange.c` | `gcc -std=c89 -Wall -pedantic -o 04_interpolacao_lagrange codigos/04_interpolacao_lagrange.c -lm` |
-| `05_simpson.c` | `gcc -std=c89 -Wall -pedantic -o 05_simpson codigos/05_simpson.c -lm` |
-| `06_euler.c` | `gcc -std=c89 -Wall -pedantic -o 06_euler codigos/06_euler.c -lm` |
-| `07_runge_kutta.c` | `gcc -std=c89 -Wall -pedantic -o 07_runge_kutta codigos/07_runge_kutta.c -lm` |
+| `01_erros_conversao.c` | `gcc -std=c99 -Wall -pedantic -o 01_erros_conversao codigos/01_erros_conversao.c -lm` |
+| `02_bissecao.c` | `gcc -std=c99 -Wall -pedantic -o 02_bissecao codigos/02_bissecao.c -lm` |
+| `03_newton_raphson.c` | `gcc -std=c99 -Wall -pedantic -o 03_newton_raphson codigos/03_newton_raphson.c -lm` |
+| `04_interpolacao_lagrange.c` | `gcc -std=c99 -Wall -pedantic -o 04_interpolacao_lagrange codigos/04_interpolacao_lagrange.c -lm` |
+| `05_simpson.c` | `gcc -std=c99 -Wall -pedantic -o 05_simpson codigos/05_simpson.c -lm` |
+| `06_euler.c` | `gcc -std=c99 -Wall -pedantic -o 06_euler codigos/06_euler.c -lm` |
+| `07_runge_kutta.c` | `gcc -std=c99 -Wall -pedantic -o 07_runge_kutta codigos/07_runge_kutta.c -lm` |
 
 Onde:
-- `-std=c89` força o padrão ANSI C (C89/C90)
+- `-std=c99` força o padrão C99 (permite VLAs, declarações misturadas, etc.)
 - `-Wall -pedantic` ativa todos os avisos de conformidade
 - `-lm` linka a biblioteca matemática (`math.h`)
 

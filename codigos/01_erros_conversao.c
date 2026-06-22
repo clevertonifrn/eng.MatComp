@@ -57,8 +57,8 @@ int main(void)
 
     printf("\n=== Erro de representacao (float vs double) ===\n");
     {
-        float  f = 0.1f;
-        double d = 0.1;
+        float  f = 0.201f;
+        double d = 0.201;
 
         printf("float  0.1 = %.20f\n", f);
         printf("double 0.1 = %.20f\n", d);
