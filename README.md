@@ -21,7 +21,7 @@
 ---
 ## Semana 1 — Introdução aos Erros e Teorema de Taylor
 
-**Código:** `01_erros_conversao.c`
+**Códigos:** `01_erros_conversao.c`, `01_dec2bin.c`, `01_bin2dec.c`
 
 **Resumo:** Conversão entre sistemas decimal e binário para números inteiros e fracionários. Padrão IEEE 754 de ponto flutuante (float e double). Erros de arredondamento, truncamento e cancelamento catastrófico. O Teorema de Taylor como ferramenta para aproximar funções por polinômios e estimar erros.
 
@@ -100,6 +100,8 @@ Compilar cada exemplo **individualmente**:
 | Arquivo | Comando |
 |---------|---------|
 | `01_erros_conversao.c` | `gcc -std=c99 -Wall -pedantic -o 01_erros_conversao codigos/01_erros_conversao.c -lm` |
+| `01_dec2bin.c` | `gcc -std=c99 -Wall -pedantic -o 01_dec2bin codigos/01_dec2bin.c -lm` |
+| `01_bin2dec.c` | `gcc -std=c99 -Wall -pedantic -o 01_bin2dec codigos/01_bin2dec.c -lm` |
 | `02_bissecao.c` | `gcc -std=c99 -Wall -pedantic -o 02_bissecao codigos/02_bissecao.c -lm` |
 | `03_newton_raphson.c` | `gcc -std=c99 -Wall -pedantic -o 03_newton_raphson codigos/03_newton_raphson.c -lm` |
 | `04_interpolacao_lagrange.c` | `gcc -std=c99 -Wall -pedantic -o 04_interpolacao_lagrange codigos/04_interpolacao_lagrange.c -lm` |
