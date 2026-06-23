@@ -64,9 +64,7 @@
 - FRANCO, N. B. *Cálculo Numérico*. 2. ed. Pearson, 2007. Cap. 5 (interpolação) e Cap. 6 (integração).
 
 ---
-## Semana 4 — EDOs e Avaliação Final
-
-**Códigos:** `06_euler.c`, `07_runge_kutta.c`
+## Semana 4 — EDOs - Avaliação Final
 
 **Resumo:** Solução numérica de problemas de valor inicial (PVI) para equações diferenciais ordinárias de 1ª ordem. Método de Euler (1ª ordem, erro O(h)), Euler modificado (método de Heun), Runge-Kutta de 4ª ordem (erro O(h⁴)). Métodos de passo múltiplo: previsão-correção. Comparação entre métodos e análise de erro.
 
@@ -106,8 +104,6 @@ Compilar cada exemplo **individualmente**:
 | `03_newton_raphson.c` | `gcc -std=c99 -Wall -pedantic -o 03_newton_raphson codigos/03_newton_raphson.c -lm` |
 | `04_interpolacao_lagrange.c` | `gcc -std=c99 -Wall -pedantic -o 04_interpolacao_lagrange codigos/04_interpolacao_lagrange.c -lm` |
 | `05_simpson.c` | `gcc -std=c99 -Wall -pedantic -o 05_simpson codigos/05_simpson.c -lm` |
-| `06_euler.c` | `gcc -std=c99 -Wall -pedantic -o 06_euler codigos/06_euler.c -lm` |
-| `07_runge_kutta.c` | `gcc -std=c99 -Wall -pedantic -o 07_runge_kutta codigos/07_runge_kutta.c -lm` |
 
 Onde:
 - `-std=c99` força o padrão C99 (permite VLAs, declarações misturadas, etc.)
